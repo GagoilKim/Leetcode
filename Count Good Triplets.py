@@ -9,4 +9,5 @@ class Solution:
                             if abs(arr[i] - arr[k]) <= c:
                                 count += 1
                                 print(abs(arr[i] - arr[j]))
+                                
         return count
